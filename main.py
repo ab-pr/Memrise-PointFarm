@@ -32,9 +32,3 @@ while True:
         pyPress('w')
         kUp('ctrl')
     pyClick(685, 330)
-
-
-
-
-
-
