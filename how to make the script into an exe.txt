@@ -5,7 +5,7 @@
 2. Go to console and do:
 	
 	cd (Directory of the py file)
-	pyinstaller --onefile main.py
+	pyinstaller --onefile (main.py / the name for the file)
 
 3. Wait for it to finsih
 4. In the 'dist' folder you have the EXE
