@@ -1,0 +1,1 @@
+start /min main.exe
