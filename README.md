@@ -1,4 +1,4 @@
-THIS IS A VERY SLOW RELEASE (WOULDN'T RECCOMEND UNTIL THIS MESSAGE IS REMOVED)
+I reccomend using the Batch file to open the script because there may be performance imacts with leaving the script un minimized
 
 # 𝙈𝙚𝙢𝙧𝙞𝙨𝙚 𝐀𝐮𝐭𝐨𝐅𝐚𝐫𝐦
 𝘼 𝙈𝙖𝙘𝙧𝙤 𝙢𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙋𝙮𝙩𝙝𝙤𝙣 𝙩𝙤 𝐚𝐮𝐭𝐨-𝐟𝐚𝐫𝐦 𝙈𝙚𝙢𝙧𝙞𝙨𝙚 𝐩𝐨𝐢𝐧𝐭𝐬
