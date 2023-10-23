@@ -1,0 +1,11 @@
+
+1. In CMD or in a terminal in eg. vsCode type pip install pyinstaller
+	If you dont have pip search up a video on how to get it
+
+2. Go to console and do:
+	
+	cd (Directory of the py file)
+	pyinstaller --onefile (main.py / the name for the file)
+
+3. Wait for it to finsih
+4. In the 'dist' folder you have the EXE
