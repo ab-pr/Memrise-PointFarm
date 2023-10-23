@@ -10,7 +10,7 @@ struct {
 POINT get_rev();
 POINT get_opt();
 void click(options, review);
-void keys();
+void key();
 
 void main() {
 	int fl;
