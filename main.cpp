@@ -1,6 +1,5 @@
 #include <iostream>
 #include <windows.h>
-using namespace std;
 
 struct {
 	POINT options;
@@ -21,12 +20,12 @@ void keyrelease(WORD key);
 
 int main(void) {
 	int in_definate, tabs, delay;
-	cout << "(1) Forever Loop / (2) Repeat Loop: ";
-	cin >> in_definate;
-	cout << "How many tabs do you want to open each time. 1 tab/min = 4000pts: ";
-	cin >> tabs;
-	cout << "What is the delay for the loading tab (ms): ";
-	cin >> delay;
+	std::cout << "(1) Forever Loop / (2) Repeat Loop: ";
+	std::cin >> in_definate;
+	std::cout << "How many tabs do you want to open each time. 1 tab/min = 4000pts: ";
+	std::cin >> tabs;
+	std::cout << "What is the delay for the loading tab (ms): ";
+	std::cin >> delay;
 
 	if (in_definate == 1) {forever(tabs, delay);}
 	else if (in_definate == 2) {repeat(tabs, delay);}
@@ -72,8 +71,8 @@ void repeat(int tabs, int delay) {
 	POINT blank = pos.blank; /*get_blank()*/
 	
 	int repeats;
-	cout << "Repeats: ";
-	cin >> repeats;
+	std::cout << "Repeats: ";
+	std::cin >> repeats;
 	Sleep(3000);
 
 	for (int i = 0; i < repeats; i++) {
@@ -85,22 +84,22 @@ void repeat(int tabs, int delay) {
 }
 
 POINT get_opt() {
-	cout << "Input Options Button's Location eg:16 34: ";
-	cin >> pos.options.x >> pos.options.y;
+	std::cout << "Input Options Button's Location eg:16 34: ";
+	std::cin >> pos.options.x >> pos.options.y;
 	
 	return pos.options;
 }
 
 POINT get_rev() {
-	cout << "Input Review Button's Location eg:16 34: ";
-    cin >> pos.review.x >> pos.review.y;
+	std::cout << "Input Review Button's Location eg:16 34: ";
+    std::cin >> pos.review.x >> pos.review.y;
 
     return pos.review;
 }
 
 POINT get_blank() {
-	cout << "Input a Blank Space Location eg:16 34: ";
-	cin >> pos.blank.x >> pos.blank.y;
+	std::cout << "Input a Blank Space Location eg:16 34: ";
+	std::cin >> pos.blank.x >> pos.blank.y;
 
 	return pos.blank;
 }
