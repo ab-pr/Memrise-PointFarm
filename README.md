@@ -24,7 +24,7 @@ This project is a Memrise auto-point-farmer to help you with your homework. This
 #include <windows.h>
 ```
 * You must have a basic understanding of C++
-* ⚠️💀 You must accept that im not responsible for any conciquences of your actions and using the program to cheat in Memrise, or breaking your computer (just turn it on and off and don't have any unsaved or personal documents whilst using the program). 💀⚠️
+* ⚠️💀 You must accept that im not responsible for any consequences of your actions and using the program to cheat in Memrise, or breaking your computer (just turn it on and off and don't have any unsaved or personal documents whilst using the program). 💀⚠️
 * You must be willing to cheat and be bad person😲
 
 ## The guide (yay!)
