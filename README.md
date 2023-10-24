@@ -27,7 +27,7 @@ This project is a Memrise auto-point-farmer to help you with your homework. This
 * ⚠️💀 You must accept that im not responsible for any consequences of your actions and using the program to cheat in Memrise, or breaking your computer (just turn it on and off and don't have any unsaved or personal documents whilst using the program). 💀⚠️
 * You must be willing to cheat and be bad person😲
 
-## The guide (yay!)
+## The guide (yay!):
 
 **(1)** Clone the repo to a directory on you computer, eg 
 ```C:\Program Files (x86)\Microsoft\Temp```
@@ -86,3 +86,66 @@ void forever/repeat(int tabs, int delay) {
 </details>
 
 **(5)** Now run the executable.
+
+***
+
+## Usage:
+
+You will be prompted in a window to choose to either use a forever loop or a finite loop:
+```(1) Forever Loop / (2) Repeat Loop: ```. Then you will be prompted how many tabs you want to open each time, and the delay from opening those tabs to switching to them. I suggest that if you have a:
+
+* Good Computer --> 15 with a delay of 5000ms
+* OK Computer --> 7 with a delay of 3000ms
+* Bad Computer --> 5 with a delay of 4000ms
+
+### How to Set Up your Memrise
+**(1)** Go to a level and click the **⚙️Ignore** button.
+
+**(2)** Now select all to ignore but 1.
+
+**(3)** Now click apply and you are done. Make sure to scroll the the top of the page.
+
+### The Inputs
+
+Now you will be prompted the coordinates of the **Options Button**, **Review Button** and a **Blank Space**. Use [this mouse location finding tool](https://sourceforge.net/projects/mpos/) to input the (x, y) locations. 
+
+If you chose a finite loop then you will be prompted: ```Repeats: ```. Input how many times you want the program to run. I reccomend this option and test with the values. The forever loop will just run infinitely.
+
+Now the bot should be running. If you want to quit, **```CTRL + TAB```** into the terminal window running the bot and press **```CTRL + C```**.
+
+### Common Fixes
+
+If the program is closing tabs too quickly and it misses one, add a ```Sleep(eg500)``` after each **```CTRL + W```**. eg:
+
+Start at Line 136:
+```c++
+void key(int tabs) {
+	for (int i = 0; i < tabs; i++) {
+        keyhit(VK_CONTROL);
+
+        keyhit(VK_TAB);
+        keyrelease(VK_TAB);
+
+        keyhit(0x56);
+        keyrelease(0x56);
+
+        keyrelease(VK_CONTROL);
+	}
+
+	for (int i = 0; i < tabs; i++) {
+
+        keyhit(VK_CONTROL);
+        Sleep(100); // ADDED
+
+        keyhit(0x57);
+        Sleep(100); // ADDED
+        keyrelease(0x57);
+
+        Sleep(100); // ADDED
+        keyrelease(VK_CONTROL);
+
+        // Change the time to whatever you want.
+
+	}
+}
+```
