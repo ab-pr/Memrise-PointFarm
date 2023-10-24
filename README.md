@@ -1,4 +1,4 @@
-# Memrise Auto-Farm Bot Project
+# Memrise Point-Farming Bot Project
 
 ### A Macro to help you do your Memrise Homework.
 
