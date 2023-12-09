@@ -10,7 +10,7 @@ This project is a Memrise auto-point-farmer to help you with your homework. This
 * You have to compile it yourself; if you use my version it probably won't work.
 * You would be better of doing Memrise manually because it doesn't take care of long term memory.
 
-##**If you want to automate LTM then click [here](https://github.com/CB61-A1/Memrise-LTM-Automator/tree/main)**
+## **If you want to automate LTM then click [here](https://github.com/CB61-A1/Memrise-LTM-Automator/tree/main)**
 
 # Instructions:
 
