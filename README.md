@@ -7,27 +7,23 @@ This project is a Memrise auto-point-farmer to help you with your homework. This
 * You have to modify the code for it to work on your own machine
 * The python version is slow
 * All the code is there, you just have to remove and uncomment some lines
-* You have to compile it yourself :)
-* You would be better of doing Memrise manually
-* Almost no secondary school students know C++
-* The handful who do probably don't know it to this degree (its not that hard to interperet)
-* Go away if you are lazy, which you most likely are, you fat piggy 🐷
+* You have to compile it yourself; if you use my version it probably won't work.
+* You would be better of doing Memrise manually because it doesn't take care of long term memory.
 
 # Instructions:
 
 ## Prerequisites:
 * You must be on Windows NT device
 * You must have a C++ compiler, eg GNU C/C++ Compiler
-* You must be able to:
+* You must have ```windows``` headers:
 ```c++
-#include <iostream>
 #include <windows.h>
 ```
 * You must have a basic understanding of C++
-* ⚠️💀 You must accept that im not responsible for any consequences of your actions and using the program to cheat in Memrise, or breaking your computer (just turn it on and off and don't have any unsaved or personal documents whilst using the program). 💀⚠️
+* You must accept that im not responsible for any consequences of your actions and using the program to cheat in Memrise, or breaking your computer (just turn it on and off and don't have any unsaved or personal documents whilst using the program).
 * You must be willing to cheat and be bad person😲
 
-## The guide (yay!):
+## The guide:
 
 **(1)** Clone the repo to a directory on you computer, eg 
 ```C:\Program Files (x86)\Microsoft\Temp```
@@ -53,14 +49,14 @@ Memrise-AutoFarm
 ```c++
 void forever/repeat(int tabs, int delay) {
     /*
-    junk;
-    junk;
+    other_stuff;
+	other_stuff;
 
-    junk;
-    junk;
+    other_stuff;
+    other_stuff;
     
-    junk;
-    junk;
+    other_stuff;
+    other_stuff;
     */
 
 	POINT options = get_opt();
@@ -77,8 +73,8 @@ void forever/repeat(int tabs, int delay) {
 
 4 [2] Install:
 
-    [x] mingw-32-base
-    [x] mingw-gcc-g++
+    [🟩] mingw-32-base
+    [🟩] mingw-gcc-g++
 
 4 [3] Add ```C:\MinGW\bin``` to **PATH** in ```System Environment Variables```
 
@@ -101,7 +97,7 @@ You will be prompted in a window to choose to either use a forever loop or a fin
 ### How to Set Up your Memrise
 **(1)** Go to a level and click the **⚙️Ignore** button.
 
-**(2)** Now select all to ignore but 1.
+**(2)** Now select all to ignore then uncheck **one** word.
 
 **(3)** Now click apply and you are done. Make sure to scroll the the top of the page.
 
