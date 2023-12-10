@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-using std::cout, std::cin;
+using std;
 
 struct {
 	POINT options;
