@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-using std;
+using namespace std;
 
 struct {
 	POINT options;
